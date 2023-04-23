@@ -7,6 +7,6 @@ public class DefaultController {
 
     @GetMapping("/hello")
     public String hello(){
-        return "hello";
+        return "hello world";
     }
 }
